@@ -19,3 +19,9 @@ let deposit = 200;
 let TotalBalance = accountBalance + deposit;
 
 console.log("TotalBalance:", TotalBalance);
+
+let customerName = "Leonard,";
+let Welcome = " Welcome to to our website!"
+let message = customerName.concat(Welcome);
+
+console.log(message);
