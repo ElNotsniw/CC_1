@@ -13,3 +13,9 @@ var isAvailable = true;
 console.log("productName:", productName, "Type:", typeof productName);
 console.log("productPrice:", productPrice, "Type:", typeof productPrice);
 console.log("isAvailable:", isAvailable, "Type:", typeof isAvailable);
+
+let accountBalance = 100;
+let deposit = 200;
+let TotalBalance = accountBalance + deposit;
+
+console.log("TotalBalance:", TotalBalance);
